@@ -1,0 +1,29 @@
+.err {
+  position: relative;
+}
+.title {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  word-wrap: break-word;
+  color: white;
+}
+.msg {
+  position: absolute;
+  top: 35.5px;
+  left: 65px;
+  word-wrap: break-word;
+}
+#icon {
+  position: absolute;
+  top: 45px;
+  left: 25px;
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}

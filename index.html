@@ -1,0 +1,40 @@
+<title>Error Maker</title>
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<font face="Segoe UI">
+<font size=2.8px>
+
+<center>
+
+<h1>Windows XP Error Maker</h1>
+<h3>Choose icon. This is required</h3>
+<p id="noico"></p>
+<input type="radio" id="css" name="erricon" value="0"><img src="img/critical.png" alt=""" width="30" height="30"><br><br>
+<input type="radio" id="css" name="erricon" value="1"><img src="img/warning.png" alt=""" width="30" height="30"><br><br>
+<input type="radio" id="css" name="erricon" value="2"><img src="img/information.png" alt=""" width="30" height="30"><br><br>
+<input type="radio" id="css" name="erricon" value="3"><img src="img/question.png" alt=""" width="30" height="30"><br><br>
+
+
+<label for="title">Title:</label><br>
+<input name="title" type="text" maxlength="53" id="title" class="searchField"/><br><br>
+
+<label for="msg">Message:</label><br>
+<input name="msg" type="text" maxlength="48" id="msg" class="searchField"/><br><br>
+
+
+<button class="search" onclick="errgen()">Generate</button><br><br>
+
+</center>
+<div class="err" id="err">
+   <img src="img/errmsg.png" alt="" width="412">
+   <img src="img/critical.png" alt=""" id="icon" width="30" height="30">
+   <div class="title"><b><p id="errtitle"></p></b></div>
+   <div class="msg"><p id="errmsg"></p></div>
+</div>
+
+
+<link rel="stylesheet" href="styles.css">
+
+<script src="https://github.com/niklasvh/html2canvas/releases/download/v1.4.1/html2canvas.js"></script>
+<script src="main.js"></script>
+</font></font>
